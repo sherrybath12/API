@@ -28,12 +28,12 @@ curl --request GET \
 
 | Parameter | In | Type | Required |
 | :--- | :--- | :--- |:--- |
-| `query` | `query` | `string`| `true` |
-| `page` | `query` | `integer`| `true` |
-| `lat` | `query` | `number`| `true` |
-| `long` | `query` | `number`| `true` |
-| `x-authenticated-api-key` | `header` | `string`| `true` |
-| `x-user-key` | `header` | `string`| `true` |
+| query | query | string | true |
+| page | query | integer | true |
+| lat | query | number | true |
+| long | query | number | true |
+| x-authenticated-api-key | header | string | true |
+| x-user-key | header | string | true |
 
 ## Successful Response
 
@@ -68,5 +68,5 @@ curl --request GET \
 
 | Name | Type |
 | :--- | :--- |
-| `indexName` | `string` | `Success` |
-| `hits` | `[SearchedProcedures]` |
+| indexName | string | Success |
+| hits | array| [SearchedProcedures] |

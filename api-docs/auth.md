@@ -23,7 +23,7 @@ GET /apip/auth/v2/token
 
 | Parameter | Type | Required |
 | :--- | :--- | :--- |
-| `x-authenticated-api-key` | `string`| `true` |
+| x-authenticated-api-key | string | true |
 
 ## Responses
 

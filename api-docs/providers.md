@@ -28,9 +28,9 @@ curl --request GET \
 
 | Parameter | In | Type | Required |
 | :--- | :--- | :--- |:--- |
-| `provider_id` | `path` | `string`| `true` |
-| `x-authenticated-api-key` | `header` | `string`| `true` |
-| `x-user-key` | `header` | `string`| `true` |
+| provider_id | path | string | true|
+| x-authenticated-api-key | header | string | true |
+| x-user-key | header | string | true |
 
 ## Successful Response
 

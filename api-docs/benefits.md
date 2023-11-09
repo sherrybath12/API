@@ -28,8 +28,8 @@ curl --request GET \
 
 | Parameter | In | Type | Required |
 | :--- | :--- | :--- |:--- |
-| `x-authenticated-api-key` | `header` | `string`| `true` |
-| `x-user-key` | `header` | `string`| `true` |
+| x-authenticated-api-key | header | string | true |
+| x-user-key | header | string | true |
 
 ## Successful Response
 

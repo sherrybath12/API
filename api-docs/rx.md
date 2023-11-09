@@ -27,9 +27,9 @@ curl --request GET \
 
 | Parameter | In | Type | Required |
 | :--- | :--- | :--- |:--- |
-| `rx_brand_id` | `path` | `integer`| `true` |
-| `x-authenticated-api-key` | `header` | `string`| `true` |
-| `x-user-key` | `header` | `string`| `true` |
+| rx_brand_id | path | integer | true |
+| x-authenticated-api-key | header | string| true |
+| x-user-key | header | string | true |
 
 ## Successful Response
 
@@ -103,9 +103,9 @@ curl --request GET \
 
 | Parameter | In | Type | Required |
 | :--- | :--- | :--- |:--- |
-| `rx_cost_id` | `path` | `integer`| `true` |
-| `x-authenticated-api-key` | `header` | `string`| `true` |
-| `x-user-key` | `header` | `string`| `true` |
+| rx_cost_id | path | integer | true |
+| x-authenticated-api-key | header | string | true |
+| x-user-key | header | string | true |
 
 ## Successful Response
 
@@ -193,9 +193,9 @@ curl --request GET \
 
 | Parameter | In | Type | Required |
 | :--- | :--- | :--- |:--- |
-| `rx_cost_id` | `path` | `integer`| `true` |
-| `x-authenticated-api-key` | `header` | `string`| `true` |
-| `x-user-key` | `header` | `string`| `true` |
+| rx_cost_id | path | integer | true |
+| x-authenticated-api-key | header | string | true |
+| x-user-key | header | string | true |
 
 ## Successful Response
 
@@ -222,4 +222,4 @@ curl --request GET \
 
 | Name | Type | 
 | :--- | :--- |
-| `array` | `[RXExpectedCost]` |
+| array | [RXExpectedCost] |

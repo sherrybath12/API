@@ -28,9 +28,9 @@ curl --request GET \
 
 | Parameter | In | Type | Required |
 | :--- | :--- | :--- |:--- |
-| `procedure_id` | `path` | `string`| `false` |
-| `x-authenticated-api-key` | `header` | `string`| `true` |
-| `x-user-key` | `header` | `string`| `true` |
+| procedure_id | path | string | false |
+| x-authenticated-api-key | header | string | true |
+| x-user-key | header | string | true |
 
 ## Successful Response
 
@@ -74,9 +74,9 @@ curl --request GET \
 
 | Parameter | In | Type | Required |
 | :--- | :--- | :--- |:--- |
-| `med_cost_id` | `path` | `string`| `true` |
-| `x-authenticated-api-key` | `header` | `string`| `true` |
-| `x-user-key` | `header` | `string`| `true` |
+| med_cost_id | path | string | true |
+| x-authenticated-api-key | header | string | true |
+| x-user-key | header | string | true |
 
 ## Successful Response
 
