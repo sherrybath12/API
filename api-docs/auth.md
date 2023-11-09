@@ -17,7 +17,7 @@ GET /apip/auth/v2/token
 ```
 
 ## Request URL
-```http
+```bash
 --header 'x-authenticated-api-key: {api_key}'
 ```
 
@@ -29,8 +29,8 @@ GET /apip/auth/v2/token
 
 | Status Code | Meaning | Description | 
 | :--- | :--- |:--- |
-| 200 | `OK` | `Success` |
-| 401 | `UNAUTHORIZED` | `Api Key is missing or invalid`|
-| 500 | `INTERNAL SERVER ERROR` | `Something went wrong` |
+| 200 | OK | Success |
+| 401 | UNAUTHORIZED | Api Key is missing or invalid |
+| 500 | INTERNAL SERVER ERROR | Something went wrong |
 
 

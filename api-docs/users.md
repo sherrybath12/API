@@ -18,7 +18,7 @@ GET /members
 ```
 
 ## Request URL
-```http
+```bash
 curl --request GET \
   --url https://dummy.example.com/api/v1/members \
   --header 'accept: application/json' \
@@ -33,7 +33,7 @@ curl --request GET \
 
 ## Successful Response
 
-```javascript
+```json
 {
   "id": "",
   "type": "members",
@@ -91,9 +91,9 @@ curl --request GET \
 
 | Status Code | Meaning | Description | 
 | :--- | :--- |:--- |
-| 200 | `OK` | `Success` |
-| 401 | `UNAUTHORIZED` | `Api Key is missing or invalid`|
-| 500 | `INTERNAL SERVER ERROR` | `Something went wrong` |
+| 200 | OK | Success |
+| 401 | UNAUTHORIZED | Api Key is missing or invalid |
+| 500 | INTERNAL SERVER ERROR | Something went wrong |
 
 
 ## Get Dependents
@@ -106,7 +106,7 @@ GET /members/dependents
 ```
 
 ## Request URL
-```http
+```bash
 curl --request GET \
   --url https://dummy.example.com/api/v1/members/dependents \
   --header 'accept: application/json' \
@@ -121,7 +121,7 @@ curl --request GET \
 
 ## Successful Response
 
-```javascript
+```json
 {
   "dependent_list": [
     {
@@ -146,6 +146,6 @@ curl --request GET \
 
 | Status Code | Meaning | Description | 
 | :--- | :--- |:--- |
-| 200 | `OK` | `Success` |
-| 401 | `UNAUTHORIZED` | `Api Key is missing or invalid`|
-| 500 | `INTERNAL SERVER ERROR` | `Something went wrong` |
+| 200 | OK | Success |
+| 401 | UNAUTHORIZED | Api Key is missing or invalid |
+| 500 | INTERNAL SERVER ERROR | Something went wrong |

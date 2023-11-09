@@ -18,7 +18,7 @@ GET /providers/{provider_id}
 ```
 
 ## Request URL
-```http
+```bash
 curl --request GET \
   --url https://dummy.example.com/api/v1/providers/7794 \
   --header 'accept: application/json' \
@@ -34,7 +34,7 @@ curl --request GET \
 
 ## Successful Response
 
-```javascript
+```json
 {
   "id": "7794",
   "type": "providers",
@@ -100,6 +100,6 @@ curl --request GET \
 
 | Status Code | Meaning | Description | 
 | :--- | :--- |:--- |
-| 200 | `OK` | `Success` |
-| 401 | `UNAUTHORIZED` | `Api Key is missing or invalid`|
-| 500 | `INTERNAL SERVER ERROR` | `Something went wrong` |
+| 200 | OK | Success |
+| 401 | UNAUTHORIZED | Api Key is missing or invalid |
+| 500 | INTERNAL SERVER ERROR | Something went wrong |

@@ -18,7 +18,7 @@ GET /procedure/{procedure_id}
 ```
 
 ## Request URL
-```http
+```bash
 curl --request GET \
   --url https://dummy.example.com/api/v1/provider_service_groups/string \
   --header 'accept: application/json' \
@@ -34,7 +34,7 @@ curl --request GET \
 
 ## Successful Response
 
-```javascript
+```json
 {
   "id": "30",
   "type": "provider_service_group",
@@ -50,9 +50,9 @@ The following status codes in its API:
 
 | Status Code | Meaning | Description | 
 | :--- | :--- |:--- |
-| 200 | `OK` | `Success` |
-| 401 | `UNAUTHORIZED` | `Api Key is missing or invalid`|
-| 500 | `INTERNAL SERVER ERROR` | `Something went wrong` |
+| 200 | OK | Success |
+| 401 | UNAUTHORIZED | Api Key is missing or invalid |
+| 500 | INTERNAL SERVER ERROR | Something went wrong |
 
 ## Get_Med_Expected_Cost
 
@@ -64,7 +64,7 @@ GET /costs/med/{med_cost_id}
 ```
 
 ## Request URL
-```http
+```bash
 curl --request GET \
   --url https://dummy.example.com/api/v1/costs/med/L-41568205-2973616- \
   --header 'accept: application/json' \
@@ -80,7 +80,7 @@ curl --request GET \
 
 ## Successful Response
 
-```javascript
+```json
 {
   "id": "L-41568205-2973616-",
   "type": "med_expected_costs",
@@ -141,6 +141,6 @@ curl --request GET \
 
 | Status Code | Meaning | Description | 
 | :--- | :--- |:--- |
-| 200 | `OK` | `Success` |
-| 401 | `UNAUTHORIZED` | `Api Key is missing or invalid`|
-| 500 | `INTERNAL SERVER ERROR` | `Something went wrong` |
+| 200 | OK | Success |
+| 401 | UNAUTHORIZED | `Api Key is missing or invalid |
+| 500 | INTERNAL SERVER ERROR | Something went wrong |

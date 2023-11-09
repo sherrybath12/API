@@ -17,7 +17,7 @@ GET /rx_brands/{rx_brand_id}
 ```
 
 ## Request URL
-```http
+```bash
 curl --request GET \
   --url https://dummy.example.com/api/v1/rx_brands/11813 \
   --header 'accept: application/json' \
@@ -33,7 +33,7 @@ curl --request GET \
 
 ## Successful Response
 
-```javascript
+```json
 {
   "id": "11813",
   "type": "rx_brands",
@@ -79,9 +79,9 @@ The following status codes in its API:
 
 | Status Code | Meaning | Description | 
 | :--- | :--- |:--- |
-| 200 | `OK` | `Success` |
-| 401 | `UNAUTHORIZED` | `Api Key is missing or invalid`|
-| 500 | `INTERNAL SERVER ERROR` | `Something went wrong` |
+| 200 | OK | Success |
+| 401 | UNAUTHORIZED | Api Key is missing or invalid |
+| 500 | INTERNAL SERVER ERROR | Something went wrong |
 
 ## Get_RX_Expected_Cost
 
@@ -93,7 +93,7 @@ GET /costs/rx/{rx_cost_id}
 ```
 
 ## Request URL
-```http
+```bash
 curl --request GET \
   --url https://dummy.example.com/api/v1/costs/rx/rx_chain_costs-648967 \
   --header 'accept: application/json' \
@@ -109,7 +109,7 @@ curl --request GET \
 
 ## Successful Response
 
-```javascript
+```json
 [
   {
     "id": "L-rx_chain_costs-648967-8225685-30",
@@ -163,9 +163,9 @@ The following status codes in its API:
 
 | Status Code | Meaning | Description | 
 | :--- | :--- |:--- |
-| 200 | `OK` | `Success` |
-| 401 | `UNAUTHORIZED` | `Api Key is missing or invalid`|
-| 500 | `INTERNAL SERVER ERROR` | `Something went wrong` |
+| 200 | OK | Success |
+| 401 | UNAUTHORIZED | Api Key is missing or invalid |
+| 500 | INTERNAL SERVER ERROR | Something went wrong |
 
 ## Response Schema
 
@@ -183,7 +183,7 @@ GET /costs/rx/{rx_cost_id}/mop
 ```
 
 ## Request URL
-```http
+```bash
 curl --request GET \
   --url https://dummy.example.com/api/v1/costs/rx/L-rx_chain_costs-100-200-30/mop \
   --header 'accept: application/json' \
@@ -199,7 +199,7 @@ curl --request GET \
 
 ## Successful Response
 
-```javascript
+```json
 {
   "id": "L-rx_chain_costs-100-200-30",
   "type": "rx_expected_costs",
@@ -214,9 +214,9 @@ curl --request GET \
 
 | Status Code | Meaning | Description | 
 | :--- | :--- |:--- |
-| 200 | `OK` | `Success` |
-| 401 | `UNAUTHORIZED` | `Api Key is missing or invalid`|
-| 500 | `INTERNAL SERVER ERROR` | `Something went wrong` |
+| 200 | OK | Success |
+| 401 | UNAUTHORIZED | Api Key is missing or invalid |
+| 500 | INTERNAL SERVER ERROR | Something went wrong |
 
 ## Response Schema
 
