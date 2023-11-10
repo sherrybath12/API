@@ -1,3 +1,3 @@
 # API Documentation with Markdown
 
-[!alt](https://sherrybath12.github.io/API-Markdown/)
+Learn More (https://sherrybath12.github.io/API-Markdown/)
