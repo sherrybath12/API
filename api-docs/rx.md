@@ -171,7 +171,7 @@ The following status codes in its API:
 
 | Name | Type | 
 | :--- | :--- |
-| `array` | `[RXExpectedCost]` |
+| array | [RXExpectedCost] |
 
 ## Get_RX_Expected_Cost (MOP)
 
