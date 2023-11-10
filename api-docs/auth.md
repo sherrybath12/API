@@ -8,22 +8,15 @@ permalink: /auth/
 
 All API requests require the use of an Authenticated API key which should be provided in the header.
 
-## Get Authorized User
-
-Verify that the request includes a valid user.
-
-```
-GET /apip/auth/v2/token
-```
-
 ## Request URL
+
 ```bash
 --header 'x-authenticated-api-key: {api_key}'
 ```
 
-| Parameter | Type | Required |
-| :--- | :--- | :--- |
-| x-authenticated-api-key | string | true |
+| Parameter | In | Type | Required |
+| :--- | :--- | :--- | :--- |
+| x-authenticated-api-key | header | string | true |
 
 ## Responses
 
